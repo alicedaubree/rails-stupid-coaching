@@ -1,0 +1,13 @@
+<div class="container">
+<div class= "col-auto">
+<div class="alert alert-warning row" role="alert">
+  <p id="user-question"><strong><%= @question %></strong></p>
+  <p> - You</p>
+</div>
+<div class="alert alert-secondary row" role="alert">
+  <p id= "coach-answer"><strong><%= @coach_answer %></strong></p>
+  <p> - Your coach</p>
+</div>
+<%= link_to "Ask another question", ask_path %>
+</div>
+</div>
